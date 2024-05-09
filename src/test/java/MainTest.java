@@ -24,6 +24,8 @@ public class MainTest {
 
         // result
         // p1 -> (p2 -> p5) + p3 + p4
+
+
         assert p5.addProduct(p6);
         assert p6.addProduct(p7);
         assert !p7.addProduct(p1);
